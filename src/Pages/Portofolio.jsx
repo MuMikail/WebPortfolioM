@@ -142,13 +142,34 @@ export default function FullWidthTabs() {
         getDocs(certificateCollection),
       ]);
 
-      const projectData = projectSnapshot.docs.map((doc) => ({
-        id: doc.id,
-        ...doc.data(),
-        TechStack: doc.data().TechStack || [],
-      }));
+      const projectData = [
+        {
+          id: "1",
+          Title: "FAMK WEB",
+          Description: "FAMK Cyber adalah tim profesional yang menyediakan layanan pemrograman, pengembangan aplikasi, dan desain web.Kami menawarkan pembuatan aplikasi desktop dan mobile, penjualan website siap pakai, bantuan proyek akademik, serta debugging dan optimasi kode. Kami berkomitmen memberikan hasil berkualitas tinggi sesuai kebutuhan Anda.",
+          Img: "/famk.jpeg", // Ganti URL ini
+          Link: "https://famk-web.vercel.app/",
+        },
+        {
+          id: "2",
+          Title: "Kelly Sikema WEB",
+          Description: "​Situs web ini menampilkan portofolio Kelly Sikema, seorang profesional kreatif berbasis di Indonesia dengan lebih dari 10 tahun pengalaman dalam pengembangan web, pengembangan mobile, dan desain grafis. Halaman utama menyoroti beberapa karya terpilih, termasuk antarmuka pengguna untuk aplikasi Padomoro Timer. Bagian keterampilan menunjukkan keahliannya dalam Bootstrap dengan tingkat penguasaan 90%. Timeline pekerjaan mencatat perannya sebagai Kepala Programmer & Co-Founder di Shoppe, Jakarta sejak Januari 2024, Direktur Kreatif & Senior Programmer di Lazada, Jakarta (Januari 2023 - Desember 2024), dan Programmer Junior di Majoo, Jakarta (September 2018 - 2021). Bagian kontak menyediakan alamat di Jl Poras no 7 Sindang Barang Loji, Kota Bogor, Jawa Barat, nomor telepon +62 1234 87465 84774, dan email kellysikema@gmail.com.",
+          Img: "/sikema.jpeg", // Ganti URL ini
+          Link: "https://webdesign1-flame.vercel.app/",
+        },
+      ];
+      
 
-      const certificateData = certificateSnapshot.docs.map((doc) => doc.data());
+      const certificateData = [
+      {
+        id: "1",
+        Img: "/Ser 2.jpeg", // Ganti URL ini
+      },
+      {
+        id: "2",
+        Img: "/Serti 2.jpeg", // Ganti URL ini
+      },
+    ];
 
       setProjects(projectData);
       setCertificates(certificateData);

@@ -41,7 +41,7 @@ const FeatureItem = ({ feature }) => {
         <div className="relative w-1.5 h-1.5 md:w-2 md:h-2 rounded-full bg-gradient-to-r from-blue-400 to-purple-400 group-hover:scale-125 transition-transform duration-300" />
       </div>
       <span className="text-sm md:text-base text-gray-300 group-hover:text-white transition-colors">
-        {feature}
+        {feature} 
       </span>
     </li>
   );
@@ -110,7 +110,7 @@ const ProjectDetails = () => {
         ...selectedProject,
         Features: selectedProject.Features || [],
         TechStack: selectedProject.TechStack || [],
-        Github: selectedProject.Github || 'https://github.com/EkiZR',
+        Github: selectedProject.Github || 'https://github.com/MuMikail',
       };
       setProject(enhancedProject);
     }
