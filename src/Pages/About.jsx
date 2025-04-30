@@ -236,10 +236,9 @@ const AboutPage = () => {
               data-aos="fade-right"
               data-aos-duration="1500"
             >
-              Saya seorang siswa Rekayasa Perangkat Lunak yang tertarik dalam
-              pengembangan Front-End. Saya berfokus pada menciptakan pengalaman
-              digital yang menarik dan selalu berusaha memberikan solusi terbaik
-              dalam setiap proyek.
+              Saya seorang siswa Rekayasa Perangkat Lunak yang berfokus pada
+              menciptakan pengalaman digital yang menarik dan selalu berusaha
+              memberikan solusi terbaik dalam setiap proyek.
             </p>
 
             <div className="flex flex-col lg:flex-row items-center lg:items-start gap-4 lg:gap-4 lg:px-0 w-full">

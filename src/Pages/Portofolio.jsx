@@ -152,10 +152,31 @@ export default function FullWidthTabs() {
         },
         {
           id: "2",
-          Title: "Kelly Sikema WEB",
+          Title: "KELLY SIKEMA WEB",
           Description: "​Situs web ini menampilkan portofolio Kelly Sikema, seorang profesional kreatif berbasis di Indonesia dengan lebih dari 10 tahun pengalaman dalam pengembangan web, pengembangan mobile, dan desain grafis. Halaman utama menyoroti beberapa karya terpilih, termasuk antarmuka pengguna untuk aplikasi Padomoro Timer. Bagian keterampilan menunjukkan keahliannya dalam Bootstrap dengan tingkat penguasaan 90%. Timeline pekerjaan mencatat perannya sebagai Kepala Programmer & Co-Founder di Shoppe, Jakarta sejak Januari 2024, Direktur Kreatif & Senior Programmer di Lazada, Jakarta (Januari 2023 - Desember 2024), dan Programmer Junior di Majoo, Jakarta (September 2018 - 2021). Bagian kontak menyediakan alamat di Jl Poras no 7 Sindang Barang Loji, Kota Bogor, Jawa Barat, nomor telepon +62 1234 87465 84774, dan email kellysikema@gmail.com.",
           Img: "/sikema.jpeg", // Ganti URL ini
           Link: "https://webdesign1-flame.vercel.app/",
+        },
+        {
+          id: "3",
+          Title: "APLIKASI TUGASKU",
+          Description: "TugasKu adalah aplikasi to-do list sederhana dan cerdas yang membantu Anda mengatur, mengelola, dan menyelesaikan tugas harian dengan lebih mudah. Dirancang untuk produktivitas maksimal, TugasKu memungkinkan Anda membuat daftar tugas, menetapkan prioritas, menambahkan tenggat waktu, dan memantau progres pekerjaan Anda.",
+          Img: "/TugasKu.png", // Ganti URL ini
+          Link: "https://expo.dev/accounts/mikail12/projects/To-Do-List/builds/fcc915e1-a8bd-42e0-884a-b38be691eca2",
+        },
+        {
+          id: "4",
+          Title: "APLIKASI TECHXPERIENCE",
+          Description: "TugasKu adalah aplikasi to-do list sederhana dan cerdas yang membantu Anda mengatur, mengelola, dan menyelesaikan tugas harian dengan lebih mudah. Dirancang untuk produktivitas maksimal, TugasKu memungkinkan Anda membuat daftar tugas, menetapkan prioritas, menambahkan tenggat waktu, dan memantau progres pekerjaan Anda.",
+          Img: "/Techxperience.png", // Ganti URL ini
+          Link: "https://expo.dev/accounts/mikail12/projects/Techxperience_Mikel/builds/64d1758f-eee0-41b3-aa84-7d14e9d9aea4",
+        },
+        {
+          id: "5",
+          Title: "SHOEPALACE WEB",
+          Description: "Shoepalace adalah brand terpercaya yang menghadirkan sepatu berkualitas tinggi untuk berbagai kebutuhan gaya hidup dan aktivitas Anda. Kami menawarkan koleksi sepatu kasual, formal, hingga sport yang dirancang dengan bahan pilihan, desain modern, dan kenyamanan maksimal.",
+          Img: "/SHOEPALACE Web.jpeg", // Ganti URL ini
+          Link: "https://web-sepatu-steel.vercel.app/",
         },
       ];
       
