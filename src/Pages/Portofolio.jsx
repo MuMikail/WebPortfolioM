@@ -167,7 +167,7 @@ export default function FullWidthTabs() {
         {
           id: "4",
           Title: "APLIKASI TECHXPERIENCE",
-          Description: "TugasKu adalah aplikasi to-do list sederhana dan cerdas yang membantu Anda mengatur, mengelola, dan menyelesaikan tugas harian dengan lebih mudah. Dirancang untuk produktivitas maksimal, TugasKu memungkinkan Anda membuat daftar tugas, menetapkan prioritas, menambahkan tenggat waktu, dan memantau progres pekerjaan Anda.",
+          Description: "Techxperience adalah aplikasi inovatif yang dirancang untuk menghadirkan pengalaman teknologi terbaik dalam satu genggaman. Dengan antarmuka yang intuitif dan fitur canggih, Techxperience membantu Anda menjelajahi, mempelajari, dan memaksimalkan pemanfaatan teknologi dalam kehidupan sehari-hari. Cocok untuk pemula hingga profesional, Techxperience memungkinkan Anda mengakses tips, tutorial, dan pembaruan teknologi terbaru secara praktis dan efisien.",
           Img: "/Techxperience.png", // Ganti URL ini
           Link: "https://expo.dev/accounts/mikail12/projects/Techxperience_Mikel/builds/64d1758f-eee0-41b3-aa84-7d14e9d9aea4",
         },
